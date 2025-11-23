@@ -1,0 +1,173 @@
+[(0, RF), (0, LF), (0, LB), (0, RB)]
+
+
+
+[(0, RF), (0, RB), (0, LF), (0, LB)]
+F R U' R' U R U R' F' F R' F' R U R U' R' 
+R U R' U' R' F R F' F R U' R' U' R U R' F' 
+
+[(0, RF), (0, RB), (0, LB), (0, LF)]
+F R' F' R U R U' R' F R U' R' U R U R' F' 
+F R U' R' U' R U R' F' R U R' U' R' F R F' 
+
+[(0, RF), (0, LF), (1, LB), (2, RB)]
+R U2 R' U' R U' R' F U R U' R' U R U' R' F' 
+F R U R' U' R U R' U' F' R U R' U R U2 R' 
+
+[(0, RF), (0, LF), (1, RB), (2, LB)]
+R U2 R' U' R U' R' U2 R U R' U' R' F R F' 
+F R' F' R U R U' R' U2 R U R' U R U2 R' 
+
+[(0, RF), (0, RB), (1, LF), (2, LB)]
+R U2 R' U' R U' R' U' F R' F' R U R U' R' 
+R U R' U' R' F R F' U R U R' U R U2 R' 
+
+[(0, RF), (0, RB), (1, LB), (2, LF)]
+F U R U' R' U R U' R' F' U F U R U' R' U R U' R' U R U' R' F' 
+F R U R' U' R U R' U' R U R' U' F' U' F R U R' U' R U R' U' F' 
+
+[(0, RF), (0, RB), (2, LB), (1, LF)]
+F U R U' R' F' 
+F R U R' U' F' 
+
+[(0, RF), (0, LF), (2, LB), (1, RB)]
+R U2 R' U' R U' R' U R U R' U R U2 R' 
+R U2 R' U' R U' R' U' R U R' U R U2 R' 
+
+[(0, RF), (0, RB), (2, LF), (1, LB)]
+R U2 R' U' R U' R' U2 F R U' R' U R U R' F' 
+F R U' R' U' R U R' F' U2 R U R' U R U2 R' 
+
+[(0, RF), (0, LF), (2, RB), (1, LB)]
+F R U' R' U R U R' F' U2 F R' F' R U R U' R' 
+R U R' U' R' F R F' U2 F R U' R' U' R U R' F' 
+
+[(0, RF), (1, RB), (0, LF), (2, LB)]
+F R U' R' U R U R' F' 
+F R U' R' U' R U R' F' 
+
+[(0, RF), (1, RB), (0, LB), (2, LF)]
+R U2 R' U' R U' R' F U R U' R' F' 
+F R U R' U' F' R U R' U R U2 R' 
+
+[(0, RF), (1, LB), (0, RB), (2, LF)]
+R U2 R' U' R U' R' U F R' F' R U R U' R' 
+R U R' U' R' F R F' U' R U R' U R U2 R' 
+
+[(0, RF), (1, LF), (0, LB), (2, RB)]
+R U2 R' U' R U' R' U2 R U R' U R U2 R' 
+R U2 R' U' R U' R' U2 R U R' U R U2 R' 
+
+[(0, RF), (1, LB), (0, LF), (2, RB)]
+F R U' R' U R U R' F' U' F U R U' R' U R U' R' F' 
+F R U R' U' R U R' U' F' U F R U' R' U' R U R' F' 
+
+[(0, RF), (1, LF), (1, LB), (1, RB)]
+R U R' U R U2 R' 
+R U2 R' U' R U' R' 
+
+[(0, RF), (1, RB), (1, LB), (1, LF)]
+R U2 R' U' R U' R' U F U R U' R' U R U' R' U R U' R' F' 
+F R U R' U' R U R' U' R U R' U' F' U' R U R' U R U2 R' 
+
+[(0, RF), (1, LF), (1, RB), (1, LB)]
+R U R' U R U2 R' F R' F' R U R U' R' 
+R U R' U' R' F R F' R U2 R' U' R U' R' 
+
+[(0, RF), (1, LB), (1, LF), (1, RB)]
+R U R' U R U2 R' U' F R U' R' U R U R' F' 
+F R U' R' U' R U R' F' U R U2 R' U' R U' R' 
+
+[(0, RF), (1, RB), (1, LF), (1, LB)]
+R U R' U R U2 R' U' R U R' U' R' F R F' 
+F R' F' R U R U' R' U R U2 R' U' R U' R' 
+
+[(0, RF), (1, LB), (1, RB), (1, LF)]
+F U R U' R' U R U' R' F' U F R U' R' U R U R' F' 
+F R U' R' U' R U R' F' U' F R U R' U' R U R' U' F' 
+
+[(0, RF), (1, RB), (2, LF), (0, LB)]
+F R' F' R U R U' R' 
+R U R' U' R' F R F' 
+
+[(0, RF), (1, LF), (2, RB), (0, LB)]
+R U2 R' U' R U' R' U' F R U' R' U R U R' F' 
+F R U' R' U' R U R' F' U R U R' U R U2 R' 
+
+[(0, RF), (2, RB), (0, LF), (1, LB)]
+R U R' U R U2 R' U F R' F' R U R U' R' 
+R U R' U' R' F R F' U' R U2 R' U' R U' R' 
+
+[(0, RF), (2, LF), (1, RB), (0, LB)]
+R U2 R' U' R U' R' U' R U R' U' R' F R F' 
+F R' F' R U R U' R' U R U R' U R U2 R' 
+
+[(0, RF), (2, RB), (1, LF), (0, LB)]
+R U R' U R U2 R' F R U' R' U R U R' F' 
+F R U' R' U' R U R' F' R U2 R' U' R U' R' 
+
+[(0, RF), (2, LF), (2, LB), (2, RB)]
+R U2 R' U' R U' R' 
+R U R' U R U2 R' 
+
+[(0, RF), (2, LB), (2, RB), (2, LF)]
+R U2 R' U' R U' R' F R U' R' U R U R' F' 
+F R U' R' U' R U R' F' R U R' U R U2 R' 
+
+[(0, RF), (2, LF), (2, RB), (2, LB)]
+R U2 R' U' R U' R' R U R' U' R' F R F' 
+F R' F' R U R U' R' R U R' U R U2 R' 
+
+[(0, RF), (2, RB), (2, LB), (2, LF)]
+R U2 R' U' R U' R' U' F U R U' R' F' 
+F R U R' U' F' U R U R' U R U2 R' 
+
+[(0, RF), (2, LB), (2, LF), (2, RB)]
+F U R U' R' U R U' R' F' U' F R U' R' U R U R' F' 
+F R U' R' U' R U R' F' U F R U R' U' R U R' U' F' 
+
+[(0, RF), (2, RB), (2, LF), (2, LB)]
+F U R U' R' U R U' R' F' U' R U R' U' R' F R F' 
+F R' F' R U R U' R' U F R U R' U' R U R' U' F' 
+
+[(1, RF), (1, LF), (2, LB), (2, RB)]
+F U R U' R' U R U' R' F' 
+F R U R' U' R U R' U' F' 
+
+[(1, RF), (1, RB), (2, LB), (2, LF)]
+R U2 R' U' R U' R' U2 F U R U' R' F' 
+F R U R' U' F' U2 R U R' U R U2 R' 
+
+[(1, RF), (1, LF), (2, RB), (2, LB)]
+F U R U' R' U R U' R' F' F R' F' R U R U' R' 
+R U R' U' R' F R F' F R U R' U' R U R' U' F' 
+
+[(1, RF), (1, RB), (2, LF), (2, LB)]
+F U R U' R' U R U' R' U R U' R' F' U F R U' R' U R U R' F' 
+F R U' R' U' R U R' F' U' F R U R' U' R U R' U' R U R' U' F' 
+
+[(1, RF), (2, RB), (1, LB), (2, LF)]
+F U R U' R' U R U' R' U R U' R' F' 
+F R U R' U' R U R' U' R U R' U' F' 
+
+[(1, RF), (2, LF), (1, LB), (2, RB)]
+R U2 R' U' R U' R' R U2 R' U' R U' R' 
+R U R' U R U2 R' R U R' U R U2 R' 
+
+[(1, RF), (2, LB), (1, RB), (2, LF)]
+R U2 R' U' R U' R' U F R U' R' U R U R' F' 
+F R U' R' U' R U R' F' U' R U R' U R U2 R' 
+
+[(1, RF), (2, RB), (1, LF), (2, LB)]
+R U2 R' U' R U' R' U R U R' U' R' F R F' 
+F R' F' R U R U' R' U' R U R' U R U2 R' 
+
+[(1, RF), (2, LF), (2, RB), (1, LB)]
+R U2 R' U' R U' R' U2 F R' F' R U R U' R' 
+R U R' U' R' F R F' U2 R U R' U R U2 R' 
+
+[(1, RF), (2, RB), (2, LF), (1, LB)]
+R U R' U R U2 R' U2 F R' F' R U R U' R' 
+R U R' U' R' F R F' U2 R U2 R' U' R U' R' 
+
+43
