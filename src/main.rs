@@ -8,6 +8,7 @@ use indexmap::IndexSet;
 use cube::*;
 use moves::*;
 use algorithm::*;
+use strum::IntoEnumIterator;
 
 fn main() {
     let mut reached: IndexMap<Top, IndexSet<Vec<Move>>> = IndexMap::from([
@@ -16,7 +17,7 @@ fn main() {
 
     for generation in 0..2 {
         let mut new_ones = reached.clone();
-        for algo in ALGORITHMS {
+        for algo in Algorithm::iter() {
             // extra algos should NOT be used in the first gen
             if generation == 0 && algo.is_extra() { continue };
             let moves = invert_moves(&algo.moves());
@@ -40,6 +41,7 @@ fn main() {
         reached = new_ones;
     }
 
+    // turn all IndexMap and IndexSet into Vecs (so algorithms can be mutated)
     let mut entries: Vec<(Top, Vec<Vec<Move>>)> = reached
         .into_iter()
         .map(|(k, set)| (k, set.into_iter().collect()))
@@ -60,20 +62,29 @@ fn main() {
         println!("{} type", first.type_and_extra().0);
         println!();
 
-        print_top(&first.top_normalized());
+        println!("{:?}", move_lists[0]);
+        print_top(&first.top());
 
         for moves in move_lists {
             let strings: Vec<_> = invert_moves(moves).iter().map(|m| format!("{:?}", m)).collect();
             let mut string = strings.join(" ");
 
-            for algo in ALGORITHMS {
+            for algo in Algorithm::iter() {
                 string = string.replace(algo.moves_str(), &format!("{:?}", algo));
             }
 
-            println!("Inverse: [{:?}]", moves);
+            // dumb way to do it, but...
+            // put brackets around the "stage 2" moves
+            let re = regex::Regex::new(r"(^|\s)[^U]([^\s]*)\s").unwrap();
+            if let Some(i) = re.find(&string).map(|m| m.end()) {
+                string.insert(i, '[');
+                string.push(']');
+            }
+
+            // println!("Inverse: [{:?}]", moves);
             // println!("Verbose: {:?}", invert_moves(moves));
-            println!("Solve: {}", string);
-            println!();
+            println!("{}", string);
+            // println!();
         }
 
         for _ in 0..5 {

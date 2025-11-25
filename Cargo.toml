@@ -6,3 +6,6 @@ edition = "2024"
 [dependencies]
 cubesim = "0.0.7"
 indexmap = "2.12.1"
+regex = "1.12.2"
+strum = "0.27.2"
+strum_macros = "0.27.2"

@@ -1,7 +1,9 @@
 use crate::cube::{Cube, Top};
 use crate::moves::{parse_moves, Move};
+use strum_macros::EnumIter;
+use Algorithm::*;
 
-#[derive(Debug, PartialEq, Eq, Clone, Copy)]
+#[derive(Debug, PartialEq, Eq, Clone, Copy, EnumIter)]
 pub enum Algorithm {
     X,
     XX,
@@ -11,16 +13,13 @@ pub enum Algorithm {
     Sledge,
     AntiSledge,
     Stash,
+    AntiStash,
 }
-
-use Algorithm::*;
-
-pub const ALGORITHMS: [Algorithm; 8] = [X, XX, XXX, Sune, AntiSune, Sledge, AntiSledge, Stash];
 
 impl Algorithm {
     pub fn is_extra(self) -> bool {
         match self {
-            AntiSledge => true,
+            AntiSledge | AntiStash => true,
             _ => false
         }
     }
@@ -34,7 +33,8 @@ impl Algorithm {
             AntiSune => "R U2 R' U' R U' R'",
             Sledge => "R U R' U' R' F R F'",
             AntiSledge => "F R' F' R U R U' R'",
-            Stash => "F R U' R' U' R U R' F'"
+            Stash => "F R U' R' U' R U R' F'",
+            AntiStash => "F R U' R' U R U R' F'",
         }
     }
 

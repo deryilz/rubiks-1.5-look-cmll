@@ -1,4 +1,4 @@
-use crate::{algorithm::Algorithm, moves::{Move, MoveFace}};
+use crate::moves::{Move, MoveFace};
 
 #[derive(PartialEq, Eq, Clone, Copy, PartialOrd, Ord, Hash, Debug)]
 pub enum TopCornerPiece {
