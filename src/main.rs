@@ -17,8 +17,8 @@ fn main() {
     for generation in 0..2 {
         let mut new_ones = reached.clone();
         for algo in ALGORITHMS {
-            // extra algos should only be used in the first gen
-            if generation != 0 && algo.is_extra() { continue };
+            // extra algos should NOT be used in the first gen
+            if generation == 0 && algo.is_extra() { continue };
             let moves = invert_moves(&algo.moves());
 
             for i in 0..4 {
