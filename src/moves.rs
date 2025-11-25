@@ -1,11 +1,11 @@
 use std::fmt::Debug;
 
-#[derive(PartialEq, Eq, Clone, Copy, Debug)]
+#[derive(PartialEq, Eq, Clone, Copy, Debug, Hash)]
 pub enum MoveFace {
     U, R, F
 }
 
-#[derive(PartialEq, Eq, Clone, Copy)]
+#[derive(PartialEq, Eq, Clone, Copy, Hash)]
 pub struct Move {
     pub face: MoveFace,
     pub num: u8
@@ -50,8 +50,10 @@ pub fn parse_moves(s: &str) -> Vec<Move> {
     s.split(" ").map(parse_move).collect()
 }
 
-pub fn invert(moves: &[Move]) -> Vec<Move> {
-    moves.iter().cloned().map(|m| {
-        Move { face: m.face, num: (4 - m.num) % 4 }
-    }).rev().collect()
+pub fn invert_move(m: Move) -> Move {
+    Move { face: m.face, num: (4 - m.num) % 4 }
+}
+
+pub fn invert_moves(moves: &[Move]) -> Vec<Move> {
+    moves.iter().cloned().map(invert_move).rev().collect()
 }

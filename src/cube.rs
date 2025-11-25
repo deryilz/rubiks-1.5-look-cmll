@@ -1,4 +1,4 @@
-use crate::moves::{MoveFace, Move};
+use crate::{algorithm::Algorithm, moves::{Move, MoveFace}};
 
 #[derive(PartialEq, Eq, Clone, Copy, PartialOrd, Ord, Hash, Debug)]
 pub enum TopCornerPiece {
@@ -44,10 +44,14 @@ pub struct Cube {
 }
 
 impl Cube {
-    // pub fn from_top(top: &Top) -> Self {
-    //     let [urf, ulf, ulb, urb] = *top;
-    //     Cube { urf, ulf, ulb, urb, ..Cube::default() }
-    // }
+    pub fn from(moves: &[Move]) -> Self {
+        Cube::default().after_moves(moves)
+    }
+
+    pub fn from_top(top: &Top) -> Self {
+        let [urf, ulf, ulb, urb] = *top;
+        Cube { urf, ulf, ulb, urb, ..Cube::default() }
+    }
 
     pub fn after_move(&self, m: Move) -> Self {
         (0..m.num).fold(self.clone(), |cube, _| {
@@ -97,6 +101,8 @@ impl Cube {
         let mut top = self.top();
         let mut min = top.clone();
 
+        let value = |t: Top| (t.map(|c| c.rotation), t.map(|c| c.piece));
+
         use TopCornerPiece::*;
         let next = |piece| match piece {
             RF => LF,
@@ -113,12 +119,44 @@ impl Cube {
             if i != 0 && i % 4 == 0 {
                 top.rotate_right(1);
             }
-            if top < min {
+            if value(top) < value(min) {
                 min = top;
             }
         }
 
         min
+    }
+
+    // returns the algorithm and optional extra move
+    pub fn type_and_extra(&self) -> (&'static str, Vec<Move>) {
+        let setups = [
+            ([0u8, 0, 0, 0], "O"),
+            ([2, 1, 2, 1], "H"),
+            ([2, 2, 1, 1], "Pi"),
+            ([0, 0, 2, 1], "U"),
+            ([0, 0, 1, 2], "T"),
+            ([0, 2, 2, 2], "S"),
+            ([1, 0, 1, 1], "As"),
+            ([0, 2, 0, 1], "L"),
+        ];
+
+        let mut rots = self.top().map(|c| c.rotation);
+
+        for i in 0..4 {
+            for (setup_rots, name) in setups {
+                if setup_rots == rots {
+                    let extra_move = if i == 0 {
+                        vec![]
+                    } else {
+                        vec![Move { face: MoveFace::U, num: i }]
+                    };
+                    return (name, extra_move);
+                }
+            }
+            rots.rotate_right(1);
+        }
+
+        unreachable!()
     }
 }
 

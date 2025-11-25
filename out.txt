@@ -1,173 +1,1216 @@
-[(0, RF), (0, LF), (0, LB), (0, RB)]
+O type
+
+⬛️🟥⬛️🟥⬛️
+🟩🟨⬛️🟨🟦
+⬛️⬛️⬛️⬛️⬛️
+🟩🟨⬛️🟨🟦
+⬛️🟧⬛️🟧⬛️
+Inverse: [[]]
+Solve: 
+
+Inverse: [[F, U, R, U', R', F', U2, F, U, R, U', R', F']]
+Solve: X U2 X
+
+Inverse: [[F, U, R, U', R', U, R, U', R', F', U2, F, U, R, U', R', U, R, U', R', F']]
+Solve: XX U2 XX
+
+Inverse: [[F, U, R, U', R', U, R, U', R', U, R, U', R', F', F, U, R, U', R', U, R, U', R', U, R, U', R', F']]
+Solve: XXX XXX
+
+Inverse: [[F, U, R, U', R', U, R, U', R', U, R, U', R', F', U2, F, U, R, U', R', U, R, U', R', U, R, U', R', F']]
+Solve: XXX U2 XXX
+
+Inverse: [[R, U, R', U, R, U2, R', R, U2, R', U', R, U', R']]
+Solve: Sune AntiSune
+
+Inverse: [[R, U2, R', U', R, U', R', R, U, R', U, R, U2, R']]
+Solve: AntiSune Sune
+
+Inverse: [[R, U, R', U', R', F, R, F', F, R', F', R, U, R, U', R']]
+Solve: Sledge AntiSledge
 
 
 
-[(0, RF), (0, RB), (0, LF), (0, LB)]
-F R U' R' U R U R' F' F R' F' R U R U' R' 
-R U R' U' R' F R F' F R U' R' U' R U R' F' 
 
-[(0, RF), (0, RB), (0, LB), (0, LF)]
-F R' F' R U R U' R' F R U' R' U R U R' F' 
-F R U' R' U' R U R' F' R U R' U' R' F R F' 
 
-[(0, RF), (0, LF), (1, LB), (2, RB)]
-R U2 R' U' R U' R' F U R U' R' U R U' R' F' 
-F R U R' U' R U R' U' F' R U R' U R U2 R' 
 
-[(0, RF), (0, LF), (1, RB), (2, LB)]
-R U2 R' U' R U' R' U2 R U R' U' R' F R F' 
-F R' F' R U R U' R' U2 R U R' U R U2 R' 
+O type
 
-[(0, RF), (0, RB), (1, LF), (2, LB)]
-R U2 R' U' R U' R' U' F R' F' R U R U' R' 
-R U R' U' R' F R F' U R U R' U R U2 R' 
+⬛️🟩⬛️🟩⬛️
+🟧🟨⬛️🟨🟥
+⬛️⬛️⬛️⬛️⬛️
+🟦🟨⬛️🟨🟦
+⬛️🟥⬛️🟧⬛️
+Inverse: [[F, R, U', R', U, R, U, R', F', F, R', F', R, U, R, U', R']]
+Solve: Sledge Stash
 
-[(0, RF), (0, RB), (1, LB), (2, LF)]
-F U R U' R' U R U' R' F' U F U R U' R' U R U' R' U R U' R' F' 
-F R U R' U' R U R' U' R U R' U' F' U' F R U R' U' R U R' U' F' 
 
-[(0, RF), (0, RB), (2, LB), (1, LF)]
-F U R U' R' F' 
-F R U R' U' F' 
 
-[(0, RF), (0, LF), (2, LB), (1, RB)]
-R U2 R' U' R U' R' U R U R' U R U2 R' 
-R U2 R' U' R U' R' U' R U R' U R U2 R' 
 
-[(0, RF), (0, RB), (2, LF), (1, LB)]
-R U2 R' U' R U' R' U2 F R U' R' U R U R' F' 
-F R U' R' U' R U R' F' U2 R U R' U R U2 R' 
 
-[(0, RF), (0, LF), (2, RB), (1, LB)]
-F R U' R' U R U R' F' U2 F R' F' R U R U' R' 
-R U R' U' R' F R F' U2 F R U' R' U' R U R' F' 
 
-[(0, RF), (1, RB), (0, LF), (2, LB)]
-F R U' R' U R U R' F' 
-F R U' R' U' R U R' F' 
+O type
 
-[(0, RF), (1, RB), (0, LB), (2, LF)]
-R U2 R' U' R U' R' F U R U' R' F' 
-F R U R' U' F' R U R' U R U2 R' 
+⬛️🟥⬛️🟧⬛️
+🟩🟨⬛️🟨🟩
+⬛️⬛️⬛️⬛️⬛️
+🟦🟨⬛️🟨🟦
+⬛️🟥⬛️🟧⬛️
+Inverse: [[F, R', F', R, U, R, U', R', F, R, U', R', U, R, U, R', F']]
+Solve: Stash Sledge
 
-[(0, RF), (1, LB), (0, RB), (2, LF)]
-R U2 R' U' R U' R' U F R' F' R U R U' R' 
-R U R' U' R' F R F' U' R U R' U R U2 R' 
 
-[(0, RF), (1, LF), (0, LB), (2, RB)]
-R U2 R' U' R U' R' U2 R U R' U R U2 R' 
-R U2 R' U' R U' R' U2 R U R' U R U2 R' 
 
-[(0, RF), (1, LB), (0, LF), (2, RB)]
-F R U' R' U R U R' F' U' F U R U' R' U R U' R' F' 
-F R U R' U' R U R' U' F' U F R U' R' U' R U R' F' 
 
-[(0, RF), (1, LF), (1, LB), (1, RB)]
-R U R' U R U2 R' 
-R U2 R' U' R U' R' 
 
-[(0, RF), (1, RB), (1, LB), (1, LF)]
-R U2 R' U' R U' R' U F U R U' R' U R U' R' U R U' R' F' 
-F R U R' U' R U R' U' R U R' U' F' U' R U R' U R U2 R' 
 
-[(0, RF), (1, LF), (1, RB), (1, LB)]
-R U R' U R U2 R' F R' F' R U R U' R' 
-R U R' U' R' F R F' R U2 R' U' R U' R' 
+T type
 
-[(0, RF), (1, LB), (1, LF), (1, RB)]
-R U R' U R U2 R' U' F R U' R' U R U R' F' 
-F R U' R' U' R U R' F' U R U2 R' U' R U' R' 
+⬛️🟧⬛️🟦⬛️
+🟨🟩⬛️🟥🟨
+⬛️⬛️⬛️⬛️⬛️
+🟥🟨⬛️🟨🟦
+⬛️🟩⬛️🟧⬛️
+Inverse: [[F, R', F', R, U, R, U', R', U]]
+Solve: U' Sledge
 
-[(0, RF), (1, RB), (1, LF), (1, LB)]
-R U R' U R U2 R' U' R U R' U' R' F R F' 
-F R' F' R U R U' R' U R U2 R' U' R U' R' 
+Inverse: [[R, U, R', U', R', F, R, F', F, U, R, U', R', F', U2]]
+Solve: U2 X AntiSledge
 
-[(0, RF), (1, LB), (1, RB), (1, LF)]
-F U R U' R' U R U' R' F' U F R U' R' U R U R' F' 
-F R U' R' U' R U R' F' U' F R U R' U' R U R' U' F' 
+Inverse: [[F, R', F', R, U, R, U', R', U2, F, U, R, U', R', F', U]]
+Solve: U' X U2 Sledge
 
-[(0, RF), (1, RB), (2, LF), (0, LB)]
-F R' F' R U R U' R' 
-R U R' U' R' F R F' 
+Inverse: [[R, U, R', U', R', F, R, F', U', R, U, R', U, R, U2, R', U]]
+Solve: U' AntiSune U AntiSledge
 
-[(0, RF), (1, LF), (2, RB), (0, LB)]
-R U2 R' U' R U' R' U' F R U' R' U R U R' F' 
-F R U' R' U' R U R' F' U R U R' U R U2 R' 
 
-[(0, RF), (2, RB), (0, LF), (1, LB)]
-R U R' U R U2 R' U F R' F' R U R U' R' 
-R U R' U' R' F R F' U' R U2 R' U' R U' R' 
 
-[(0, RF), (2, LF), (1, RB), (0, LB)]
-R U2 R' U' R U' R' U' R U R' U' R' F R F' 
-F R' F' R U R U' R' U R U R' U R U2 R' 
 
-[(0, RF), (2, RB), (1, LF), (0, LB)]
-R U R' U R U2 R' F R U' R' U R U R' F' 
-F R U' R' U' R U R' F' R U2 R' U' R U' R' 
 
-[(0, RF), (2, LF), (2, LB), (2, RB)]
-R U2 R' U' R U' R' 
-R U R' U R U2 R' 
 
-[(0, RF), (2, LB), (2, RB), (2, LF)]
-R U2 R' U' R U' R' F R U' R' U R U R' F' 
-F R U' R' U' R U R' F' R U R' U R U2 R' 
+T type
 
-[(0, RF), (2, LF), (2, RB), (2, LB)]
-R U2 R' U' R U' R' R U R' U' R' F R F' 
-F R' F' R U R U' R' R U R' U R U2 R' 
+⬛️🟧⬛️🟥⬛️
+🟨🟩⬛️🟩🟨
+⬛️⬛️⬛️⬛️⬛️
+🟦🟨⬛️🟨🟦
+⬛️🟥⬛️🟧⬛️
+Inverse: [[F, R, U', R', U, R, U, R', F', F, U, R, U', R', F', U2]]
+Solve: U2 X Stash
 
-[(0, RF), (2, RB), (2, LB), (2, LF)]
-R U2 R' U' R U' R' U' F U R U' R' F' 
-F R U R' U' F' U R U R' U R U2 R' 
+Inverse: [[R, U, R', U', R', F, R, F', U', F, U, R, U', R', F']]
+Solve: X U AntiSledge
 
-[(0, RF), (2, LB), (2, LF), (2, RB)]
-F U R U' R' U R U' R' F' U' F R U' R' U R U R' F' 
-F R U' R' U' R U R' F' U F R U R' U' R U R' U' F' 
+Inverse: [[F, R', F', R, U, R, U', R', U', R, U2, R', U', R, U', R', U']]
+Solve: U Sune U Sledge
 
-[(0, RF), (2, RB), (2, LF), (2, LB)]
-F U R U' R' U R U' R' F' U' R U R' U' R' F R F' 
-F R' F' R U R U' R' U F R U R' U' R U R' U' F' 
+Inverse: [[R, U2, R', U', R, U', R', U', F, R', F', R, U, R, U', R']]
+Solve: Sledge U Sune
 
-[(1, RF), (1, LF), (2, LB), (2, RB)]
-F U R U' R' U R U' R' F' 
-F R U R' U' R U R' U' F' 
 
-[(1, RF), (1, RB), (2, LB), (2, LF)]
-R U2 R' U' R U' R' U2 F U R U' R' F' 
-F R U R' U' F' U2 R U R' U R U2 R' 
 
-[(1, RF), (1, LF), (2, RB), (2, LB)]
-F U R U' R' U R U' R' F' F R' F' R U R U' R' 
-R U R' U' R' F R F' F R U R' U' R U R' U' F' 
 
-[(1, RF), (1, RB), (2, LF), (2, LB)]
-F U R U' R' U R U' R' U R U' R' F' U F R U' R' U R U R' F' 
-F R U' R' U' R U R' F' U' F R U R' U' R U R' U' R U R' U' F' 
 
-[(1, RF), (2, RB), (1, LB), (2, LF)]
-F U R U' R' U R U' R' U R U' R' F' 
-F R U R' U' R U R' U' R U R' U' F' 
 
-[(1, RF), (2, LF), (1, LB), (2, RB)]
-R U2 R' U' R U' R' R U2 R' U' R U' R' 
-R U R' U R U2 R' R U R' U R U2 R' 
+T type
 
-[(1, RF), (2, LB), (1, RB), (2, LF)]
-R U2 R' U' R U' R' U F R U' R' U R U R' F' 
-F R U' R' U' R U R' F' U' R U R' U R U2 R' 
+⬛️🟩⬛️🟦⬛️
+🟨🟥⬛️🟥🟨
+⬛️⬛️⬛️⬛️⬛️
+🟩🟨⬛️🟨🟦
+⬛️🟧⬛️🟧⬛️
+Inverse: [[F, U, R, U', R', U, R, U', R', U, R, U', R', F', U, F, U, R, U', R', F', U']]
+Solve: U X U' XXX
 
-[(1, RF), (2, RB), (1, LF), (2, LB)]
-R U2 R' U' R U' R' U R U R' U' R' F R F' 
-F R' F' R U R U' R' U' R U R' U R U2 R' 
+Inverse: [[F, U, R, U', R', U, R, U', R', U, R, U', R', F', U', F, U, R, U', R', F', U']]
+Solve: U X U XXX
 
-[(1, RF), (2, LF), (2, RB), (1, LB)]
-R U2 R' U' R U' R' U2 F R' F' R U R U' R' 
-R U R' U' R' F R F' U2 R U R' U R U2 R' 
+Inverse: [[R, U2, R', U', R, U', R', F, U, R, U', R', U, R, U', R', F', U2]]
+Solve: U2 XX Sune
 
-[(1, RF), (2, RB), (2, LF), (1, LB)]
-R U R' U R U2 R' U2 F R' F' R U R U' R' 
-R U R' U' R' F R F' U2 R U2 R' U' R U' R' 
+Inverse: [[R, U, R', U, R, U2, R', U', F, U, R, U', R', U, R, U', R', F']]
+Solve: XX U AntiSune
+
+Inverse: [[R, U, R', U, R, U2, R', U, R, U2, R', U', R, U', R', U]]
+Solve: U' Sune U' AntiSune
+
+Inverse: [[F, U, R, U', R', U, R, U', R', F', U2, R, U2, R', U', R, U', R', U2]]
+Solve: U2 Sune U2 XX
+
+Inverse: [[F, U, R, U', R', U, R, U', R', F', U', R, U, R', U, R, U2, R', U']]
+Solve: U AntiSune U XX
+
+Inverse: [[R, U2, R', U', R, U', R', U', R, U, R', U, R, U2, R']]
+Solve: AntiSune U Sune
+
+Inverse: [[R, U, R', U', R', F, R, F', U', F, R, U', R', U, R, U, R', F']]
+Solve: Stash U AntiSledge
+
+
+
+
+
+
+T type
+
+⬛️🟥⬛️🟩⬛️
+🟨🟦⬛️🟧🟨
+⬛️⬛️⬛️⬛️⬛️
+🟥🟨⬛️🟨🟦
+⬛️🟩⬛️🟧⬛️
+Inverse: [[F, R, U', R', U, R, U, R', F', U', F, U, R, U', R', F']]
+Solve: X U Stash
+
+Inverse: [[F, R', F', R, U, R, U', R', F, U, R, U', R', U, R, U', R', F', U']]
+Solve: U XX Sledge
+
+Inverse: [[F, R', F', R, U, R, U', R', F, U, R, U', R', U, R, U', R', U, R, U', R', F', U]]
+Solve: U' XXX Sledge
+
+Inverse: [[F, R', F', R, U, R, U', R', U2, F, U, R, U', R', U, R, U', R', U, R, U', R', F', U']]
+Solve: U XXX U2 Sledge
+
+Inverse: [[F, R, U', R', U, R, U, R', F', U, R, U2, R', U', R, U', R']]
+Solve: Sune U' Stash
+
+Inverse: [[F, U, R, U', R', U, R, U', R', F', U', F, R', F', R, U, R, U', R', U']]
+Solve: U Sledge U XX
+
+Inverse: [[F, U, R, U', R', F', U', F, R, U', R', U, R, U, R', F', U]]
+Solve: U' Stash U X
+
+Inverse: [[R, U2, R', U', R, U', R', U', F, R, U', R', U, R, U, R', F', U']]
+Solve: U Stash U Sune
+
+Inverse: [[F, R, U', R', U, R, U, R', F', U', F, R, U', R', U, R, U, R', F']]
+Solve: Stash U Stash
+
+
+
+
+
+
+T type
+
+⬛️🟩⬛️🟩⬛️
+🟨🟥⬛️🟧🟨
+⬛️⬛️⬛️⬛️⬛️
+🟦🟨⬛️🟨🟦
+⬛️🟥⬛️🟧⬛️
+Inverse: [[F, U, R, U', R', U, R, U', R', U, R, U', R', F', U, F, U, R, U', R', U, R, U', R', F', U]]
+Solve: U' XX U' XXX
+
+Inverse: [[F, U, R, U', R', U, R, U', R', U, R, U', R', F', U', F, U, R, U', R', U, R, U', R', F', U]]
+Solve: U' XX U XXX
+
+Inverse: [[F, U, R, U', R', U, R, U', R', F', U, F, U, R, U', R', U, R, U', R', U, R, U', R', F', U2]]
+Solve: U2 XXX U' XX
+
+Inverse: [[F, U, R, U', R', U, R, U', R', F', U', F, U, R, U', R', U, R, U', R', U, R, U', R', F']]
+Solve: XXX U XX
+
+
+
+
+
+
+T type
+
+⬛️🟥⬛️🟥⬛️
+🟨🟦⬛️🟩🟨
+⬛️⬛️⬛️⬛️⬛️
+🟩🟨⬛️🟨🟦
+⬛️🟧⬛️🟧⬛️
+Inverse: [[R, U, R', U', R', F, R, F', U, R, U2, R', U', R, U', R']]
+Solve: Sune U' AntiSledge
+
+Inverse: [[F, R', F', R, U, R, U', R', U2, R, U, R', U, R, U2, R', U2]]
+Solve: U2 AntiSune U2 Sledge
+
+Inverse: [[F, R, U', R', U, R, U, R', F', U', R, U, R', U, R, U2, R', U]]
+Solve: U' AntiSune U Stash
+
+Inverse: [[R, U, R', U, R, U2, R', U', F, R', F', R, U, R, U', R', U2]]
+Solve: U2 Sledge U AntiSune
+
+Inverse: [[R, U, R', U, R, U2, R', U, F, R, U', R', U, R, U, R', F', U2]]
+Solve: U2 Stash U' AntiSune
+
+
+
+
+
+
+U type
+
+⬛️🟨⬛️🟨⬛️
+🟥🟩⬛️🟩🟧
+⬛️⬛️⬛️⬛️⬛️
+🟦🟨⬛️🟨🟦
+⬛️🟥⬛️🟧⬛️
+Inverse: [[F, U, R, U', R', F', U]]
+Solve: U' X
+
+Inverse: [[R, U2, R', U', R, U', R', U, F, U, R, U', R', F', U2]]
+Solve: U2 X U' Sune
+
+Inverse: [[F, U, R, U', R', U, R, U', R', F', U2, F, U, R, U', R', F', U']]
+Solve: U X U2 XX
+
+Inverse: [[R, U, R', U, R, U2, R', U2, F, U, R, U', R', F']]
+Solve: X U2 AntiSune
+
+Inverse: [[F, U, R, U', R', U, R, U', R', U, R, U', R', F', F, U, R, U', R', U, R, U', R', F', U']]
+Solve: U XX XXX
+
+Inverse: [[F, U, R, U', R', F', U2, F, U, R, U', R', U, R, U', R', F', U]]
+Solve: U' XX U2 X
+
+Inverse: [[F, U, R, U', R', U, R, U', R', U, R, U', R', F', U2, F, U, R, U', R', U, R, U', R', F', U']]
+Solve: U XX U2 XXX
+
+Inverse: [[F, U, R, U', R', U, R, U', R', F', F, U, R, U', R', U, R, U', R', U, R, U', R', F', U']]
+Solve: U XXX XX
+
+Inverse: [[F, U, R, U', R', U, R, U', R', F', U2, F, U, R, U', R', U, R, U', R', U, R, U', R', F', U]]
+Solve: U' XXX U2 XX
+
+Inverse: [[F, U, R, U', R', F', R, U2, R', U', R, U', R']]
+Solve: Sune X
+
+Inverse: [[F, U, R, U', R', F', U, R, U, R', U, R, U2, R', U]]
+Solve: U' AntiSune U' X
+
+Inverse: [[F, R', F', R, U, R, U', R', U, F, R', F', R, U, R, U', R']]
+Solve: Sledge U' Sledge
+
+Inverse: [[R, U, R', U', R', F, R, F', U2, F, R', F', R, U, R, U', R', U]]
+Solve: U' Sledge U2 AntiSledge
+
+Inverse: [[F, R, U', R', U, R, U, R', F', F, R, U', R', U, R, U, R', F', U2]]
+Solve: U2 Stash Stash
+
+
+
+
+
+
+U type
+
+⬛️🟨⬛️🟨⬛️
+🟥🟩⬛️🟦🟥
+⬛️⬛️⬛️⬛️⬛️
+🟩🟨⬛️🟨🟦
+⬛️🟧⬛️🟧⬛️
+Inverse: [[R, U, R', U, R, U2, R', F, U, R, U', R', U, R, U', R', F']]
+Solve: XX AntiSune
+
+Inverse: [[R, U2, R', U', R, U', R', U', F, U, R, U', R', U, R, U', R', F', U2]]
+Solve: U2 XX U Sune
+
+Inverse: [[F, U, R, U', R', F', U, F, U, R, U', R', U, R, U', R', U, R, U', R', F', U2]]
+Solve: U2 XXX U' X
+
+Inverse: [[F, U, R, U', R', F', U', F, U, R, U', R', U, R, U', R', U, R, U', R', F']]
+Solve: XXX U X
+
+Inverse: [[F, U, R, U', R', U, R, U', R', F', U', R, U2, R', U', R, U', R', U]]
+Solve: U' Sune U XX
+
+Inverse: [[R, U, R', U, R, U2, R', U', R, U2, R', U', R, U', R', U2]]
+Solve: U2 Sune U AntiSune
+
+Inverse: [[R, U2, R', U', R, U', R', U, R, U, R', U, R, U2, R', U']]
+Solve: U AntiSune U' Sune
+
+Inverse: [[F, U, R, U', R', U, R, U', R', F', U2, R, U, R', U, R, U2, R']]
+Solve: AntiSune U2 XX
+
+
+
+
+
+
+U type
+
+⬛️🟨⬛️🟨⬛️
+🟦🟥⬛️🟩🟧
+⬛️⬛️⬛️⬛️⬛️
+🟥🟨⬛️🟨🟦
+⬛️🟩⬛️🟧⬛️
+Inverse: [[R, U, R', U', R', F, R, F', U', R, U2, R', U', R, U', R', U']]
+Solve: U Sune U AntiSledge
+
+Inverse: [[F, U, R, U', R', U, R, U', R', F', U2, F, R', F', R, U, R, U', R', U']]
+Solve: U Sledge U2 XX
+
+
+
+
+
+
+U type
+
+⬛️🟨⬛️🟨⬛️
+🟩🟧⬛️🟥🟩
+⬛️⬛️⬛️⬛️⬛️
+🟦🟨⬛️🟨🟦
+⬛️🟥⬛️🟧⬛️
+Inverse: [[F, R, U', R', U, R, U, R', F', U', R, U2, R', U', R, U', R', U']]
+Solve: U Sune U Stash
+
+Inverse: [[R, U, R', U', R', F, R, F', U, R, U, R', U, R, U2, R', U2]]
+Solve: U2 AntiSune U' AntiSledge
+
+Inverse: [[F, U, R, U', R', F', U', F, R', F', R, U, R, U', R', U2]]
+Solve: U2 Sledge U X
+
+Inverse: [[R, U2, R', U', R, U', R', U2, F, R, U', R', U, R, U, R', F']]
+Solve: Stash U2 Sune
+
+
+
+
+
+
+U type
+
+⬛️🟨⬛️🟨⬛️
+🟩🟧⬛️🟦🟥
+⬛️⬛️⬛️⬛️⬛️
+🟥🟨⬛️🟨🟦
+⬛️🟩⬛️🟧⬛️
+Inverse: [[F, R, U', R', U, R, U, R', F', U, R, U, R', U, R, U2, R', U2]]
+Solve: U2 AntiSune U' Stash
+
+Inverse: [[R, U, R', U, R, U2, R', F, R, U', R', U, R, U, R', F', U]]
+Solve: U' Stash AntiSune
+
+Inverse: [[R, U, R', U', R', F, R, F', F, R, U', R', U, R, U, R', F', U2]]
+Solve: U2 Stash AntiSledge
+
+Inverse: [[F, U, R, U', R', F', U, F, R, U', R', U, R, U, R', F', U']]
+Solve: U Stash U' X
+
+
+
+
+
+
+U type
+
+⬛️🟨⬛️🟨⬛️
+🟦🟥⬛️🟥🟩
+⬛️⬛️⬛️⬛️⬛️
+🟩🟨⬛️🟨🟦
+⬛️🟧⬛️🟧⬛️
+Inverse: [[F, R, U', R', U, R, U, R', F', U2, F, R', F', R, U, R, U', R', U]]
+Solve: U' Sledge U2 Stash
+
+
+
+
+
+
+L type
+
+⬛️🟦⬛️🟩⬛️
+🟥🟨⬛️🟧🟨
+⬛️⬛️⬛️⬛️⬛️
+🟩🟥⬛️🟨🟦
+⬛️🟨⬛️🟧⬛️
+Inverse: [[R, U, R', U', R', F, R, F', U2]]
+Solve: U2 AntiSledge
+
+Inverse: [[F, R', F', R, U, R, U', R', U, F, U, R, U', R', F']]
+Solve: X U' Sledge
+
+Inverse: [[F, R, U', R', U, R, U, R', F', F, U, R, U', R', U, R, U', R', F', U]]
+Solve: U' XX Stash
+
+Inverse: [[F, R', F', R, U, R, U', R', R, U2, R', U', R, U', R', U']]
+Solve: U Sune Sledge
+
+Inverse: [[F, R', F', R, U, R, U', R', F, R', F', R, U, R, U', R', U2]]
+Solve: U2 Sledge Sledge
+
+Inverse: [[R, U2, R', U', R, U', R', U, F, R', F', R, U, R, U', R', U]]
+Solve: U' Sledge U' Sune
+
+Inverse: [[F, U, R, U', R', F', U2, F, R', F', R, U, R, U', R', U']]
+Solve: U Sledge U2 X
+
+Inverse: [[F, U, R, U', R', U, R, U', R', U, R, U', R', F', F, R, U', R', U, R, U, R', F', U']]
+Solve: U Stash XXX
+
+Inverse: [[F, U, R, U', R', U, R, U', R', F', U2, F, R, U', R', U, R, U, R', F', U]]
+Solve: U' Stash U2 XX
+
+Inverse: [[F, U, R, U', R', U, R, U', R', U, R, U', R', F', U2, F, R, U', R', U, R, U, R', F', U']]
+Solve: U Stash U2 XXX
+
+
+
+
+
+
+L type
+
+⬛️🟩⬛️🟥⬛️
+🟧🟨⬛️🟩🟨
+⬛️⬛️⬛️⬛️⬛️
+🟥🟦⬛️🟨🟦
+⬛️🟨⬛️🟧⬛️
+Inverse: [[F, R, U', R', U, R, U, R', F', U2]]
+Solve: U2 Stash
+
+Inverse: [[R, U, R', U', R', F, R, F', U', F, U, R, U', R', U, R, U', R', F']]
+Solve: XX U AntiSledge
+
+Inverse: [[F, U, R, U', R', F', F, R, U', R', U, R, U, R', F']]
+Solve: Stash X
+
+
+
+
+
+
+L type
+
+⬛️🟥⬛️🟩⬛️
+🟩🟨⬛️🟧🟨
+⬛️⬛️⬛️⬛️⬛️
+🟥🟦⬛️🟨🟦
+⬛️🟨⬛️🟧⬛️
+Inverse: [[R, U2, R', U', R, U', R', F, U, R, U', R', F', U2]]
+Solve: U2 X Sune
+
+Inverse: [[R, U, R', U, R, U2, R', U', F, U, R, U', R', F', U']]
+Solve: U X U AntiSune
+
+Inverse: [[R, U2, R', U', R, U', R', F, U, R, U', R', U, R, U', R', U, R, U', R', F', U]]
+Solve: U' XXX Sune
+
+Inverse: [[R, U, R', U, R, U2, R', U, F, U, R, U', R', U, R, U', R', U, R, U', R', F', U2]]
+Solve: U2 XXX U' AntiSune
+
+Inverse: [[R, U2, R', U', R, U', R', U2, F, U, R, U', R', U, R, U', R', U, R, U', R', F', U']]
+Solve: U XXX U2 Sune
+
+Inverse: [[R, U, R', U, R, U2, R', U', F, U, R, U', R', U, R, U', R', U, R, U', R', F']]
+Solve: XXX U AntiSune
+
+Inverse: [[F, U, R, U', R', U, R, U', R', U, R, U', R', F', U, R, U2, R', U', R, U', R']]
+Solve: Sune U' XXX
+
+Inverse: [[F, U, R, U', R', F', U', R, U2, R', U', R, U', R', U]]
+Solve: U' Sune U X
+
+Inverse: [[F, U, R, U', R', U, R, U', R', U, R, U', R', F', U', R, U2, R', U', R, U', R']]
+Solve: Sune U XXX
+
+Inverse: [[F, U, R, U', R', U, R, U', R', U, R, U', R', F', R, U, R', U, R, U2, R']]
+Solve: AntiSune XXX
+
+Inverse: [[F, U, R, U', R', F', U2, R, U, R', U, R, U2, R', U']]
+Solve: U AntiSune U2 X
+
+Inverse: [[F, U, R, U', R', U, R, U', R', U, R, U', R', F', U2, R, U, R', U, R, U2, R']]
+Solve: AntiSune U2 XXX
+
+
+
+
+
+
+L type
+
+⬛️🟦⬛️🟥⬛️
+🟥🟨⬛️🟩🟨
+⬛️⬛️⬛️⬛️⬛️
+🟧🟩⬛️🟨🟦
+⬛️🟨⬛️🟧⬛️
+Inverse: [[F, R', F', R, U, R, U', R', U', F, U, R, U', R', F', U]]
+Solve: U' X U Sledge
+
+Inverse: [[R, U, R', U', R', F, R, F', F, U, R, U', R', U, R, U', R', F', U]]
+Solve: U' XX AntiSledge
+
+Inverse: [[F, R', F', R, U, R, U', R', U, R, U, R', U, R, U2, R', U]]
+Solve: U' AntiSune U' Sledge
+
+Inverse: [[R, U, R', U, R, U2, R', U, F, R', F', R, U, R, U', R']]
+Solve: Sledge U' AntiSune
+
+
+
+
+
+
+L type
+
+⬛️🟥⬛️🟦⬛️
+🟩🟨⬛️🟥🟨
+⬛️⬛️⬛️⬛️⬛️
+🟧🟩⬛️🟨🟦
+⬛️🟨⬛️🟧⬛️
+Inverse: [[F, U, R, U', R', U, R, U', R', F', U, F, U, R, U', R', U, R, U', R', F', U2]]
+Solve: U2 XX U' XX
+
+Inverse: [[F, U, R, U', R', U, R, U', R', F', U', F, U, R, U', R', U, R, U', R', F', U']]
+Solve: U XX U XX
+
+Inverse: [[R, U, R', U, R, U2, R', U2, R, U2, R', U', R, U', R', U2]]
+Solve: U2 Sune U2 AntiSune
+
+Inverse: [[R, U2, R', U', R, U', R', U2, R, U, R', U, R, U2, R', U2]]
+Solve: U2 AntiSune U2 Sune
+
+
+
+
+
+
+L type
+
+⬛️🟩⬛️🟦⬛️
+🟧🟨⬛️🟥🟨
+⬛️⬛️⬛️⬛️⬛️
+🟩🟥⬛️🟨🟦
+⬛️🟨⬛️🟧⬛️
+Inverse: [[F, R, U', R', U, R, U, R', F', U', F, U, R, U', R', U, R, U', R', F']]
+Solve: XX U Stash
+
+
+
+
+
+
+As type
+
+⬛️🟩⬛️🟨⬛️
+🟨🟥⬛️🟦🟥
+⬛️⬛️⬛️⬛️⬛️
+🟧🟩⬛️🟨🟦
+⬛️🟨⬛️🟧⬛️
+Inverse: [[R, U, R', U, R, U2, R', U2]]
+Solve: U2 AntiSune
+
+Inverse: [[F, U, R, U', R', F', U', F, U, R, U', R', F', U2]]
+Solve: U2 X U X
+
+Inverse: [[R, U2, R', U', R, U', R', U, F, U, R, U', R', U, R, U', R', F', U2]]
+Solve: U2 XX U' Sune
+
+Inverse: [[R, U2, R', U', R, U', R', U2, F, U, R, U', R', U, R, U', R', F', U']]
+Solve: U XX U2 Sune
+
+Inverse: [[F, U, R, U', R', U, R, U', R', F', R, U2, R', U', R, U', R', U]]
+Solve: U' Sune XX
+
+Inverse: [[F, U, R, U', R', U, R, U', R', F', U, R, U2, R', U', R, U', R', U']]
+Solve: U Sune U' XX
+
+Inverse: [[R, U2, R', U', R, U', R', U2, R, U2, R', U', R, U', R']]
+Solve: Sune U2 Sune
+
+Inverse: [[F, R', F', R, U, R, U', R', U', F, R', F', R, U, R, U', R', U2]]
+Solve: U2 Sledge U Sledge
+
+Inverse: [[F, R, U', R', U, R, U, R', F', U2, F, R, U', R', U, R, U, R', F', U']]
+Solve: U Stash U2 Stash
+
+
+
+
+
+
+As type
+
+⬛️🟩⬛️🟨⬛️
+🟨🟥⬛️🟩🟧
+⬛️⬛️⬛️⬛️⬛️
+🟥🟦⬛️🟨🟦
+⬛️🟨⬛️🟧⬛️
+Inverse: [[R, U, R', U, R, U2, R', F, U, R, U', R', F']]
+Solve: X AntiSune
+
+Inverse: [[F, U, R, U', R', U, R, U', R', F', U', F, U, R, U', R', F', U']]
+Solve: U X U XX
+
+Inverse: [[F, U, R, U', R', F', U', F, U, R, U', R', U, R, U', R', F']]
+Solve: XX U X
+
+Inverse: [[R, U2, R', U', R, U', R', U, F, U, R, U', R', U, R, U', R', U, R, U', R', F']]
+Solve: XXX U' Sune
+
+Inverse: [[R, U2, R', U', R, U', R', U', F, U, R, U', R', U, R, U', R', U, R, U', R', F', U2]]
+Solve: U2 XXX U Sune
+
+Inverse: [[F, U, R, U', R', U, R, U', R', U, R, U', R', F', R, U2, R', U', R, U', R', U2]]
+Solve: U2 Sune XXX
+
+Inverse: [[F, U, R, U', R', U, R, U', R', U, R, U', R', F', U2, R, U2, R', U', R, U', R', U2]]
+Solve: U2 Sune U2 XXX
+
+Inverse: [[F, U, R, U', R', F', U', R, U, R', U, R, U2, R', U']]
+Solve: U AntiSune U X
+
+
+
+
+
+
+As type
+
+⬛️🟥⬛️🟨⬛️
+🟨🟦⬛️🟥🟩
+⬛️⬛️⬛️⬛️⬛️
+🟧🟩⬛️🟨🟦
+⬛️🟨⬛️🟧⬛️
+Inverse: [[R, U, R', U', R', F, R, F', U, F, U, R, U', R', F', U]]
+Solve: U' X U' AntiSledge
+
+Inverse: [[F, R, U', R', U, R, U, R', F', F, U, R, U', R', U, R, U', R', U, R, U', R', F', U]]
+Solve: U' XXX Stash
+
+Inverse: [[F, R, U', R', U, R, U, R', F', U2, F, U, R, U', R', U, R, U', R', U, R, U', R', F', U']]
+Solve: U XXX U2 Stash
+
+Inverse: [[F, R', F', R, U, R, U', R', R, U, R', U, R, U2, R', U]]
+Solve: U' AntiSune Sledge
+
+Inverse: [[F, U, R, U', R', F', F, R', F', R, U, R, U', R', U]]
+Solve: U' Sledge X
+
+Inverse: [[R, U, R', U, R, U2, R', F, R', F', R, U, R, U', R', U']]
+Solve: U Sledge AntiSune
+
+
+
+
+
+
+As type
+
+⬛️🟧⬛️🟨⬛️
+🟨🟩⬛️🟦🟥
+⬛️⬛️⬛️⬛️⬛️
+🟩🟥⬛️🟨🟦
+⬛️🟨⬛️🟧⬛️
+Inverse: [[F, R, U', R', U, R, U, R', F', U, F, U, R, U', R', F', U]]
+Solve: U' X U' Stash
+
+Inverse: [[F, R, U', R', U, R, U, R', F', R, U, R', U, R, U2, R']]
+Solve: AntiSune Stash
+
+Inverse: [[F, U, R, U', R', U, R, U', R', U, R, U', R', F', U, F, R', F', R, U, R, U', R']]
+Solve: Sledge U' XXX
+
+Inverse: [[F, U, R, U', R', U, R, U', R', U, R, U', R', F', U', F, R', F', R, U, R, U', R']]
+Solve: Sledge U XXX
+
+Inverse: [[R, U, R', U, R, U2, R', U', F, R, U', R', U, R, U, R', F', U2]]
+Solve: U2 Stash U AntiSune
+
+
+
+
+
+
+As type
+
+⬛️🟥⬛️🟨⬛️
+🟨🟦⬛️🟩🟧
+⬛️⬛️⬛️⬛️⬛️
+🟩🟥⬛️🟨🟦
+⬛️🟨⬛️🟧⬛️
+Inverse: [[F, R', F', R, U, R, U', R', U', F, U, R, U', R', U, R, U', R', F', U]]
+Solve: U' XX U Sledge
+
+Inverse: [[R, U, R', U', R', F, R, F', F, U, R, U', R', U, R, U', R', U, R, U', R', F', U]]
+Solve: U' XXX AntiSledge
+
+Inverse: [[R, U, R', U', R', F, R, F', U2, F, U, R, U', R', U, R, U', R', U, R, U', R', F', U']]
+Solve: U XXX U2 AntiSledge
+
+Inverse: [[F, U, R, U', R', U, R, U', R', F', U, F, R, U', R', U, R, U, R', F']]
+Solve: Stash U' XX
+
+Inverse: [[R, U, R', U', R', F, R, F', U2, F, R, U', R', U, R, U, R', F', U']]
+Solve: U Stash U2 AntiSledge
+
+Inverse: [[F, R', F', R, U, R, U', R', U', F, R, U', R', U, R, U, R', F', U]]
+Solve: U' Stash U Sledge
+
+
+
+
+
+
+As type
+
+⬛️🟧⬛️🟨⬛️
+🟨🟩⬛️🟥🟩
+⬛️⬛️⬛️⬛️⬛️
+🟥🟦⬛️🟨🟦
+⬛️🟨⬛️🟧⬛️
+Inverse: [[R, U, R', U', R', F, R, F', R, U, R', U, R, U2, R']]
+Solve: AntiSune AntiSledge
+
+
+
+
+
+
+S type
+
+⬛️🟨⬛️🟦⬛️
+🟥🟩⬛️🟥🟨
+⬛️⬛️⬛️⬛️⬛️
+🟨🟧⬛️🟨🟦
+⬛️🟩⬛️🟧⬛️
+Inverse: [[R, U2, R', U', R, U', R', U']]
+Solve: U Sune
+
+Inverse: [[F, U, R, U', R', F', U, F, U, R, U', R', F']]
+Solve: X U' X
+
+Inverse: [[R, U, R', U, R, U2, R', U, F, U, R, U', R', U, R, U', R', F', U']]
+Solve: U XX U' AntiSune
+
+Inverse: [[R, U, R', U, R, U2, R', U2, F, U, R, U', R', U, R, U', R', F']]
+Solve: XX U2 AntiSune
+
+Inverse: [[F, U, R, U', R', U, R, U', R', F', R, U, R', U, R, U2, R', U2]]
+Solve: U2 AntiSune XX
+
+Inverse: [[F, U, R, U', R', U, R, U', R', F', U, R, U, R', U, R, U2, R']]
+Solve: AntiSune U' XX
+
+Inverse: [[R, U, R', U, R, U2, R', U2, R, U, R', U, R, U2, R', U]]
+Solve: U' AntiSune U2 AntiSune
+
+
+
+
+
+
+S type
+
+⬛️🟨⬛️🟩⬛️
+🟥🟩⬛️🟧🟨
+⬛️⬛️⬛️⬛️⬛️
+🟨🟥⬛️🟨🟦
+⬛️🟦⬛️🟧⬛️
+Inverse: [[F, U, R, U', R', U, R, U', R', F', U, F, U, R, U', R', F', U']]
+Solve: U X U' XX
+
+Inverse: [[R, U2, R', U', R, U', R', U', F, U, R, U', R', F', U2]]
+Solve: U2 X U Sune
+
+Inverse: [[F, U, R, U', R', F', U, F, U, R, U', R', U, R, U', R', F', U2]]
+Solve: U2 XX U' X
+
+Inverse: [[R, U, R', U, R, U2, R', F, U, R, U', R', U, R, U', R', U, R, U', R', F']]
+Solve: XXX AntiSune
+
+Inverse: [[R, U, R', U, R, U2, R', U2, F, U, R, U', R', U, R, U', R', U, R, U', R', F', U2]]
+Solve: U2 XXX U2 AntiSune
+
+Inverse: [[F, U, R, U', R', F', U2, R, U2, R', U', R, U', R', U2]]
+Solve: U2 Sune U2 X
+
+Inverse: [[F, U, R, U', R', U, R, U', R', U, R, U', R', F', U, R, U, R', U, R, U2, R', U']]
+Solve: U AntiSune U' XXX
+
+Inverse: [[F, U, R, U', R', U, R, U', R', U, R, U', R', F', U', R, U, R', U, R, U2, R', U']]
+Solve: U AntiSune U XXX
+
+Inverse: [[R, U, R', U', R', F, R, F', U, F, R, U', R', U, R, U, R', F']]
+Solve: Stash U' AntiSledge
+
+
+
+
+
+
+S type
+
+⬛️🟨⬛️🟥⬛️
+🟦🟥⬛️🟩🟨
+⬛️⬛️⬛️⬛️⬛️
+🟨🟧⬛️🟨🟦
+⬛️🟩⬛️🟧⬛️
+Inverse: [[R, U, R', U', R', F, R, F', U2, F, U, R, U', R', F', U]]
+Solve: U' X U2 AntiSledge
+
+Inverse: [[F, R', F', R, U, R, U', R', U, F, U, R, U', R', U, R, U', R', F', U]]
+Solve: U' XX U' Sledge
+
+Inverse: [[R, U, R', U', R', F, R, F', R, U2, R', U', R, U', R', U]]
+Solve: U' Sune AntiSledge
+
+Inverse: [[F, U, R, U', R', F', U, F, R', F', R, U, R, U', R']]
+Solve: Sledge U' X
+
+Inverse: [[F, R', F', R, U, R, U', R', U2, F, R', F', R, U, R, U', R', U]]
+Solve: U' Sledge U2 Sledge
+
+
+
+
+
+
+S type
+
+⬛️🟨⬛️🟦⬛️
+🟩🟧⬛️🟥🟨
+⬛️⬛️⬛️⬛️⬛️
+🟨🟩⬛️🟨🟦
+⬛️🟥⬛️🟧⬛️
+Inverse: [[F, R, U', R', U, R, U, R', F', U2, F, U, R, U', R', F', U]]
+Solve: U' X U2 Stash
+
+Inverse: [[R, U, R', U', R', F, R, F', U, F, U, R, U', R', U, R, U', R', U, R, U', R', F', U']]
+Solve: U XXX U' AntiSledge
+
+Inverse: [[R, U, R', U', R', F, R, F', U', F, U, R, U', R', U, R, U', R', U, R, U', R', F', U]]
+Solve: U' XXX U AntiSledge
+
+Inverse: [[F, R, U', R', U, R, U, R', F', U, F, R, U', R', U, R, U, R', F']]
+Solve: Stash U' Stash
+
+Inverse: [[F, U, R, U', R', U, R, U', R', F', U', F, R, U', R', U, R, U, R', F', U]]
+Solve: U' Stash U XX
+
+
+
+
+
+
+S type
+
+⬛️🟨⬛️🟥⬛️
+🟩🟧⬛️🟩🟨
+⬛️⬛️⬛️⬛️⬛️
+🟨🟥⬛️🟨🟦
+⬛️🟦⬛️🟧⬛️
+Inverse: [[F, R, U', R', U, R, U, R', F', U, F, U, R, U', R', U, R, U', R', U, R, U', R', F', U']]
+Solve: U XXX U' Stash
+
+Inverse: [[F, R, U', R', U, R, U, R', F', U', F, U, R, U', R', U, R, U', R', U, R, U', R', F', U]]
+Solve: U' XXX U Stash
+
+Inverse: [[F, U, R, U', R', U, R, U', R', U, R, U', R', F', F, R', F', R, U, R, U', R', U2]]
+Solve: U2 Sledge XXX
+
+Inverse: [[F, U, R, U', R', U, R, U', R', U, R, U', R', F', U2, F, R', F', R, U, R, U', R', U2]]
+Solve: U2 Sledge U2 XXX
+
+
+
+
+
+
+S type
+
+⬛️🟨⬛️🟩⬛️
+🟦🟥⬛️🟧🟨
+⬛️⬛️⬛️⬛️⬛️
+🟨🟩⬛️🟨🟦
+⬛️🟥⬛️🟧⬛️
+Inverse: [[F, R, U', R', U, R, U, R', F', R, U2, R', U', R, U', R', U]]
+Solve: U' Sune Stash
+
+Inverse: [[F, R', F', R, U, R, U', R', U, R, U2, R', U', R, U', R']]
+Solve: Sune U' Sledge
+
+Inverse: [[R, U2, R', U', R, U', R', F, R', F', R, U, R, U', R', U']]
+Solve: U Sledge Sune
+
+Inverse: [[R, U2, R', U', R, U', R', F, R, U', R', U, R, U, R', F', U']]
+Solve: U Stash Sune
+
+Inverse: [[F, R', F', R, U, R, U', R', U, F, R, U', R', U, R, U, R', F', U2]]
+Solve: U2 Stash U' Sledge
+
+
+
+
+
+
+Pi type
+
+⬛️🟨⬛️🟦⬛️
+🟥🟩⬛️🟥🟨
+⬛️⬛️⬛️⬛️⬛️
+🟧🟩⬛️🟧🟨
+⬛️🟨⬛️🟦⬛️
+Inverse: [[F, U, R, U', R', U, R, U', R', F']]
+Solve: XX
+
+Inverse: [[F, U, R, U', R', F', F, U, R, U', R', F']]
+Solve: X X
+
+Inverse: [[F, U, R, U', R', U, R, U', R', U, R, U', R', F', F, U, R, U', R', F', U2]]
+Solve: U2 X XXX
+
+Inverse: [[F, U, R, U', R', U, R, U', R', U, R, U', R', F', U2, F, U, R, U', R', F', U2]]
+Solve: U2 X U2 XXX
+
+Inverse: [[F, U, R, U', R', U, R, U', R', F', F, U, R, U', R', U, R, U', R', F', U2]]
+Solve: U2 XX XX
+
+Inverse: [[F, U, R, U', R', F', F, U, R, U', R', U, R, U', R', U, R, U', R', F', U2]]
+Solve: U2 XXX X
+
+Inverse: [[F, U, R, U', R', F', U2, F, U, R, U', R', U, R, U', R', U, R, U', R', F']]
+Solve: XXX U2 X
+
+Inverse: [[R, U2, R', U', R, U', R', U, R, U2, R', U', R, U', R']]
+Solve: Sune U' Sune
+
+Inverse: [[R, U2, R', U', R, U', R', U', R, U2, R', U', R, U', R', U']]
+Solve: U Sune U Sune
+
+Inverse: [[R, U, R', U, R, U2, R', U, R, U, R', U, R, U2, R']]
+Solve: AntiSune U' AntiSune
+
+Inverse: [[R, U, R', U, R, U2, R', U', R, U, R', U, R, U2, R', U']]
+Solve: U AntiSune U AntiSune
+
+Inverse: [[F, R, U', R', U, R, U, R', F', U', F, R', F', R, U, R, U', R', U2]]
+Solve: U2 Sledge U Stash
+
+Inverse: [[F, R', F', R, U, R, U', R', U2, F, R, U', R', U, R, U, R', F', U2]]
+Solve: U2 Stash U2 Sledge
+
+
+
+
+
+
+Pi type
+
+⬛️🟨⬛️🟩⬛️
+🟥🟩⬛️🟧🟨
+⬛️⬛️⬛️⬛️⬛️
+🟥🟦⬛️🟧🟨
+⬛️🟨⬛️🟦⬛️
+Inverse: [[R, U, R', U, R, U2, R', U, F, U, R, U', R', F', U']]
+Solve: U X U' AntiSune
+
+Inverse: [[R, U2, R', U', R, U', R', U2, F, U, R, U', R', F', U]]
+Solve: U' X U2 Sune
+
+Inverse: [[F, U, R, U', R', F', U, R, U2, R', U', R, U', R', U2]]
+Solve: U2 Sune U' X
+
+Inverse: [[F, U, R, U', R', F', R, U, R', U, R, U2, R', U]]
+Solve: U' AntiSune X
+
+
+
+
+
+
+Pi type
+
+⬛️🟨⬛️🟦⬛️
+🟩🟧⬛️🟥🟨
+⬛️⬛️⬛️⬛️⬛️
+🟩🟥⬛️🟧🟨
+⬛️🟨⬛️🟦⬛️
+Inverse: [[R, U, R', U', R', F, R, F', U, F, U, R, U', R', U, R, U', R', F', U']]
+Solve: U XX U' AntiSledge
+
+Inverse: [[F, R, U', R', U, R, U, R', F', U2, F, U, R, U', R', U, R, U', R', F', U]]
+Solve: U' XX U2 Stash
+
+Inverse: [[F, R', F', R, U, R, U', R', U', R, U, R', U, R, U2, R', U2]]
+Solve: U2 AntiSune U Sledge
+
+Inverse: [[R, U, R', U, R, U2, R', U2, F, R', F', R, U, R, U', R', U']]
+Solve: U Sledge U2 AntiSune
+
+Inverse: [[R, U, R', U', R', F, R, F', U', F, R', F', R, U, R, U', R', U2]]
+Solve: U2 Sledge U AntiSledge
+
+Inverse: [[F, U, R, U', R', U, R, U', R', F', F, R, U', R', U, R, U, R', F', U']]
+Solve: U Stash XX
+
+Inverse: [[F, U, R, U', R', F', U2, F, R, U', R', U, R, U, R', F', U]]
+Solve: U' Stash U2 X
+
+
+
+
+
+
+Pi type
+
+⬛️🟨⬛️🟥⬛️
+🟦🟥⬛️🟩🟨
+⬛️⬛️⬛️⬛️⬛️
+🟧🟩⬛️🟧🟨
+⬛️🟨⬛️🟦⬛️
+Inverse: [[F, R, U', R', U, R, U, R', F', U, F, U, R, U', R', U, R, U', R', F', U']]
+Solve: U XX U' Stash
+
+Inverse: [[F, U, R, U', R', U, R, U', R', F', F, R', F', R, U, R, U', R']]
+Solve: Sledge XX
+
+
+
+
+
+
+Pi type
+
+⬛️🟨⬛️🟥⬛️
+🟩🟧⬛️🟩🟨
+⬛️⬛️⬛️⬛️⬛️
+🟥🟦⬛️🟧🟨
+⬛️🟨⬛️🟦⬛️
+Inverse: [[R, U, R', U', R', F, R, F', U2, F, U, R, U', R', U, R, U', R', F', U]]
+Solve: U' XX U2 AntiSledge
+
+Inverse: [[F, R', F', R, U, R, U', R', U, F, U, R, U', R', U, R, U', R', U, R, U', R', F', U]]
+Solve: U' XXX U' Sledge
+
+Inverse: [[F, R', F', R, U, R, U', R', U', F, U, R, U', R', U, R, U', R', U, R, U', R', F', U']]
+Solve: U XXX U Sledge
+
+Inverse: [[F, U, R, U', R', U, R, U', R', U, R, U', R', F', U, F, R, U', R', U, R, U, R', F']]
+Solve: Stash U' XXX
+
+Inverse: [[F, U, R, U', R', U, R, U', R', U, R, U', R', F', U', F, R, U', R', U, R, U, R', F']]
+Solve: Stash U XXX
+
+
+
+
+
+
+Pi type
+
+⬛️🟨⬛️🟩⬛️
+🟦🟥⬛️🟧🟨
+⬛️⬛️⬛️⬛️⬛️
+🟩🟥⬛️🟧🟨
+⬛️🟨⬛️🟦⬛️
+Inverse: [[F, R', F', R, U, R, U', R', U2, R, U2, R', U', R, U', R', U]]
+Solve: U' Sune U2 Sledge
+
+Inverse: [[R, U2, R', U', R, U', R', U2, F, R', F', R, U, R, U', R', U]]
+Solve: U' Sledge U2 Sune
+
+
+
+
+
+
+H type
+
+⬛️🟩⬛️🟩⬛️
+🟨🟥⬛️🟧🟨
+⬛️⬛️⬛️⬛️⬛️
+🟨🟥⬛️🟧🟨
+⬛️🟦⬛️🟦⬛️
+Inverse: [[F, U, R, U', R', U, R, U', R', U, R, U', R', F']]
+Solve: XXX
+
+Inverse: [[F, U, R, U', R', U, R, U', R', F', F, U, R, U', R', F']]
+Solve: X XX
+
+Inverse: [[F, U, R, U', R', F', F, U, R, U', R', U, R, U', R', F']]
+Solve: XX X
+
+Inverse: [[F, R, U', R', U, R, U, R', F', U, F, R', F', R, U, R, U', R']]
+Solve: Sledge U' Stash
+
+
+
+
+
+
+H type
+
+⬛️🟧⬛️🟥⬛️
+🟨🟩⬛️🟩🟨
+⬛️⬛️⬛️⬛️⬛️
+🟨🟥⬛️🟧🟨
+⬛️🟦⬛️🟦⬛️
+Inverse: [[F, R', F', R, U, R, U', R', F, U, R, U', R', F', U]]
+Solve: U' X Sledge
+
+Inverse: [[F, R', F', R, U, R, U', R', U2, F, U, R, U', R', U, R, U', R', F', U]]
+Solve: U' XX U2 Sledge
+
+Inverse: [[R, U, R', U', R', F, R, F', U2, R, U2, R', U', R, U', R']]
+Solve: Sune U2 AntiSledge
+
+Inverse: [[F, R, U', R', U, R, U, R', F', U2, R, U, R', U, R, U2, R', U]]
+Solve: U' AntiSune U2 Stash
+
+Inverse: [[F, U, R, U', R', U, R, U', R', F', U, F, R', F', R, U, R, U', R', U]]
+Solve: U' Sledge U' XX
+
+Inverse: [[R, U, R', U', R', F, R, F', U, F, R', F', R, U, R, U', R']]
+Solve: Sledge U' AntiSledge
+
+Inverse: [[R, U, R', U, R, U2, R', U2, F, R, U', R', U, R, U, R', F', U]]
+Solve: U' Stash U2 AntiSune
+
+
+
+
+
+
+H type
+
+⬛️🟩⬛️🟦⬛️
+🟨🟥⬛️🟥🟨
+⬛️⬛️⬛️⬛️⬛️
+🟨🟧⬛️🟧🟨
+⬛️🟩⬛️🟦⬛️
+Inverse: [[F, U, R, U', R', U, R, U', R', U, R, U', R', F', U, F, U, R, U', R', U, R, U', R', U, R, U', R', F', U]]
+Solve: U' XXX U' XXX
+
+Inverse: [[F, U, R, U', R', U, R, U', R', U, R, U', R', F', U', F, U, R, U', R', U, R, U', R', U, R, U', R', F', U]]
+Solve: U' XXX U XXX
+
+Inverse: [[R, U2, R', U', R, U', R', R, U2, R', U', R, U', R', U]]
+Solve: U' Sune Sune
+
+Inverse: [[R, U, R', U, R, U2, R', R, U, R', U, R, U2, R']]
+Solve: AntiSune AntiSune
+
+
+
+
+
+
+H type
+
+⬛️🟥⬛️🟩⬛️
+🟨🟦⬛️🟧🟨
+⬛️⬛️⬛️⬛️⬛️
+🟨🟩⬛️🟧🟨
+⬛️🟥⬛️🟦⬛️
+Inverse: [[F, R, U', R', U, R, U, R', F', U2, R, U2, R', U', R, U', R']]
+Solve: Sune U2 Stash
+
+Inverse: [[R, U, R', U', R', F, R, F', U2, R, U, R', U, R, U2, R', U]]
+Solve: U' AntiSune U2 AntiSledge
+
+Inverse: [[R, U2, R', U', R, U', R', U, F, R, U', R', U, R, U, R', F']]
+Solve: Stash U' Sune
+
+
+
+
+
 
 43
