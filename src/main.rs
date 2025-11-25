@@ -47,8 +47,9 @@ fn main() {
 
     for entry in entries.iter_mut() {
         for moves in &mut entry.1 {
-            let extra = Cube::from(moves).type_and_extra().1;
-            moves.extend(extra);
+            if let Some(extra) = Cube::from(moves).type_and_extra().1 {
+                moves.push(extra);
+            }
         }
     }
 

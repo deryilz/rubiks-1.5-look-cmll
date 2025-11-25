@@ -128,7 +128,7 @@ impl Cube {
     }
 
     // returns the algorithm and optional extra move
-    pub fn type_and_extra(&self) -> (&'static str, Vec<Move>) {
+    pub fn type_and_extra(&self) -> (&'static str, Option<Move>) {
         let setups = [
             ([0u8, 0, 0, 0], "O"),
             ([2, 1, 2, 1], "H"),
@@ -146,9 +146,9 @@ impl Cube {
             for (setup_rots, name) in setups {
                 if setup_rots == rots {
                     let extra_move = if i == 0 {
-                        vec![]
+                        None
                     } else {
-                        vec![Move { face: MoveFace::U, num: i }]
+                        Some(Move { face: MoveFace::U, num: i })
                     };
                     return (name, extra_move);
                 }
